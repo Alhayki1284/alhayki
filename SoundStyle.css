@@ -12,10 +12,11 @@
     margin: 15px;
 }
 .akraf{
-    height: 100px;
+    height: 125px;
     width: 100px;
     text-align: center;
-    background-color: aqua;
+    background-color: #212121;
+    color: #fff;
     border-radius: 15px;
     
 }
