@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <!-- Link Swiper's CSS -->
+        <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper/swiper-bundle.min.css"
+      />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/styleHome.css'>
+</head>
+<body>
+    
+    <section>
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper content">
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="image/akraf.jpg" alt="">
+                        </div>
+
+                        <div class="media-icons">
+                            <a href="https://www.youtube.com/c/hussainalakrafofc" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/alakraf_ofc/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/alakraf_ofc" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+
+                        <div class="name-profession">
+                            <span class="name">الشيخ حسين الأكرف</span> 
+                        </div>
+
+                        <div class="button">
+                            <button class="album">الصور</button>
+                            <button class="album">الإصدارات</button>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="image/salehdurazi.jpg" alt="">
+                        </div>
+
+                        <div class="media-icons">
+                            <a href="https://www.youtube.com/channel/UCMO34RNTpbBbCgfj6U6oK_w" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/salehaldurazi2013/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/aldurazi_media" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+
+                        <div class="name-profession">
+                            <span class="name">الرادود صالح الدرازي</span> 
+                        </div>
+
+                        <div class="button">
+                            <button class="album">الصور</button>
+                            <button class="album">الإصدارات</button>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="image/mahdiSahwan.jpg" alt="">
+                        </div>
+
+                        <div class="media-icons">
+                            <a href="https://www.instagram.com/mahdisahwanorg/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/mahdisahwanorg" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+
+                        <div class="name-profession">
+                            <span class="name">الرادود مهدي سهوان</span> 
+                        </div>
+
+                        <div class="button">
+                            <button class="album">الصور</button>
+                            <button class="album">الإصدارات</button>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="image/akraf.jpg" alt="">
+                        </div>
+
+                        <div class="media-icons">
+                            <a href="https://www.youtube.com/c/hussainalakrafofc" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/alakraf_ofc/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/alakraf_ofc" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+
+                        <div class="name-profession">
+                            <span class="name">الشيخ حسين الأكرف</span> 
+                        </div>
+
+                        <div class="button">
+                            <button class="album">الصور</button>
+                            <button class="album">الإصدارات</button>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 25,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+</body>
+</html> 

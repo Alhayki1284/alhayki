@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #252526;
+    background-size: 100% 100%;
+    height: 100vh;
+    font-family: 'Segoe UI';
+}
+a{
+    text-decoration: none;
+    color:#f6f626;
+}
+header{
+    position: absolute;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+    background-color: #141414;
+}
+header .logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+header h3{
+    color: #f6f626;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+header ul li{
+    margin-right: 30px;
+}
+header ul li a{
+    padding: 6px 15px;
+    border-radius: 10px;
+}
+
+header ul li a:hover, .active{
+    background: #f6f626;
+    color: #252526;
+}
+
