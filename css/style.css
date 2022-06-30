@@ -50,3 +50,26 @@ header ul li a:hover, .active{
     color: #252526;
 }
 
+
+@media screen and (max-width:400px){
+    header{
+        width: 100%;
+    }
+    header .logo{
+        font-size: 25px;
+    }
+    header h3{
+        font-size: 0;
+    }
+    header ul{
+        width: 25%;
+        margin-right: 30px;
+    }
+    header ul li{
+        width: 25%;
+        font-size: 10px;
+    }
+    header ul li a{
+        padding: 6px 10px;
+    }
+}
